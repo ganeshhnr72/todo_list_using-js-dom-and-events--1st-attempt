@@ -26,7 +26,7 @@ function function_li() {
     for (var i = 0; i < close_button.length; i++) {
       close_button[i].onclick = function () {
         var x = this.parentElement;
-        x.style.display = "none";
+        x.remove();
       };
     }
   }
