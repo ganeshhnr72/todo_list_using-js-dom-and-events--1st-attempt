@@ -1,0 +1,66 @@
+section {
+  position: relative;
+  display: flex;
+  margin: auto;
+  background-color: antiquewhite;
+  width: 90%;
+  height: 800px;
+}
+
+#inputId {
+  position: absolute;
+  width: 70%;
+  height: 50px;
+  font-size: 30px;
+  margin-left: 30px;
+  background-color: transparent;
+  align-self: center;
+  margin: 10px;
+}
+#inputButton {
+  position: absolute;
+  width: 25%;
+  height: 55px;
+  right: 0px;
+  align-self: center;
+  margin: 10px;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 30px;
+  font-size: 50px;
+  color: black;
+}
+
+#ul_Id {
+  position: relative;
+  list-style-type: none;
+  margin-top: 100px;
+  justify-content: center;
+  /* display: inline-flex;
+  align-items: center; */
+}
+li {
+  position: relative;
+  width: 600px;
+  height: 50px;
+  background-color: aquamarine;
+  /* border: 1px solid red; */
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-size: 30px;
+}
+.list_button {
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 60px;
+  font-size: 40px;
+  top: 0px;
+  background-color: aquamarine;
+
+  border: none;
+}
+
+/* ******************************* */
